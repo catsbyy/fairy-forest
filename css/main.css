@@ -21,6 +21,26 @@
   font-weight: 900;
 }
 
+html::-webkit-scrollbar {
+    width: 0.8vw;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #7775;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #777;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #5555;
+}
+
+html::-webkit-scrollbar-trac:hover {
+    background-color: #555;
+}
+
 body {
   background-color: #010101;
   font-family: raleway_f, sans-serif;
